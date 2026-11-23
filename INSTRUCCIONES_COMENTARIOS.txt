@@ -1,0 +1,12 @@
+REALLY CANON? — COMENTARIOS ACTIVADOS EN EL CÓDIGO
+
+Los identificadores de Giscus facilitados en la captura están incluidos en comments-config.js.
+Cada noticia tiene una conversación distinta gracias a data-mapping=specific y data-term=really-canon-<id>.
+
+1. En GitHub, comprueba que Discussions está activado en Settings > General > Features.
+2. Instala la app Giscus en el repositorio si aún no lo has hecho: https://github.com/apps/giscus
+3. Sube TODOS los archivos de esta carpeta a la RAÍZ de tu repositorio (no la carpeta exterior).
+4. Comprueba article.html?post=timmy, article.html?post=music y article.html?post=mean en tu GitHub Pages.
+5. Para comentar, los visitantes deberán iniciar sesión en GitHub.
+
+Nota: Los comentarios no funcionan al abrir article.html como archivo local; hay que probarlos en la web publicada con HTTPS. Si Giscus indica que no puede crear una discusión, verifica los permisos de la app y que la categoría Announcements siga existiendo.
