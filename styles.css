@@ -58,3 +58,9 @@
 .about-page .article-back{display:inline-block;margin-bottom:24px}
 .about-page .about-intro{max-width:900px;margin:44px auto}
 @media(max-width:800px){.site > .feature-row{grid-template-columns:1fr;gap:18px}.site > .feature-row .feature{min-height:270px}.about-page{width:calc(100% - 36px);padding:28px 0 65px}}
+
+/* FINAL: two cards side by side */
+.site > .feature-row{display:grid!important;grid-template-columns:minmax(0,1.45fr) minmax(0,1fr)!important;gap:24px!important;width:100%;}
+.site > .feature-row > .feature{width:100%;max-width:none!important;margin:0!important;min-width:0;box-sizing:border-box;}
+.site > .feature-row > .feature-about{background:#e3ff43!important;}
+@media(max-width:760px){.site > .feature-row{grid-template-columns:minmax(0,1fr)!important;} .site > .feature-row > .feature{min-height:260px;}}
