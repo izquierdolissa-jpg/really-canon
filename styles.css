@@ -21,3 +21,6 @@
 .article:has(a[href*="post=timmy"]) .thumb img{object-fit:contain;background:#009ff5}
 @media(max-width:900px){.masthead{padding:22px 25px;gap:20px}.header-illustration{display:none}.intro-note{min-width:190px}}
 @media(max-width:720px){.masthead{padding:23px 18px;min-height:unset;gap:24px}.masthead:after{left:18px;right:18px}.brand h1{font-size:clamp(45px,11vw,74px)}.intro-note{max-width:none;min-width:0;align-self:stretch;font-size:15px;padding-left:15px}.brand-star{font-size:48px;left:-14px}.article-cover[src*="padrinos-nueva"]{max-height:none}}
+
+/* Ajuste de imagen completa sin recortes */
+.article-cover[src*="padrinos-nueva"] { display:block; width:100%; height:auto; max-height:none; object-fit:contain; background:#fff8ed; }
