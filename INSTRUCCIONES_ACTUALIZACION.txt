@@ -1,0 +1,5 @@
+REALLY CANON? — actualización SOBRE EL BLOG
+
+Sube TODOS los archivos de esta carpeta a la raíz de tu repositorio de GitHub, junto a index.html. No subas la carpeta como una subcarpeta. Confirma con Commit changes y espera a que GitHub Pages termine.
+
+Cambios: nueva tarjeta verde junto a Modo Nostalgia, nueva página sobre-el-blog.html, enlaces del menú Sobre el blog actualizados en todas las páginas. Se mantienen los artículos, imágenes y Giscus.
