@@ -1,6 +1,7 @@
-REALLY CANON? - ACTUALIZACION
+REALLY CANON? — CORRECCIONES
 
-1. Sube TODOS los archivos de esta carpeta a la raiz del repositorio de GitHub (junto a index.html). No subas la carpeta contenedora.
-2. La portada conserva su diseño, con las 3 imagenes nuevas. El menu abre paginas de seccion y cada tarjeta abre el articulo completo.
-3. COMENTARIOS PUBLICOS: GitHub Pages no guarda comentarios por si solo. Para activarlos gratis, abre Settings > General > Features y activa Discussions en tu repositorio. Luego entra en https://giscus.app/es , escribe iz​quierdolissa-jpg/really-canon (sin espacios ni caracteres invisibles), elige categoria General, y copia los valores data-repo-id y data-category-id generados. Pegalos entre las comillas de repoId y categoryId en comments-config.js. Guarda y sube el archivo. Los lectores necesitaran iniciar sesion en GitHub para comentar.
-4. Si quieres comentarios sin cuenta GitHub, necesitaremos elegir otro servicio de comentarios con su propia configuracion.
+1. Descomprime el ZIP. En GitHub, Add file > Upload files, sube los archivos del interior directamente a la raíz (no la carpeta). Confirma Commit changes.
+2. Las tres imágenes usan nombres NUEVOS: padrinos-nueva.png, concierto-nueva.png y chicas-malas-nueva.png. Es necesario subir estas tres imágenes además de index.html, posts.js, article.html y section.html. Si ves imágenes antiguas, actualiza forzadamente con Cmd+Shift+R.
+3. DESCUBRE LAS HISTORIAS ahora abre section.html?section=all.
+4. COMENTARIOS PÚBLICOS: GitHub Pages no almacena comentarios. Para activarlos gratuitamente, ve a GitHub > repositorio > Settings > General > Features > Discussions (activar). En https://github.com/apps/giscus instala Giscus y dale acceso al repositorio. En https://giscus.app/es introduce iz​quierdolissa-jpg/really-canon (escríbelo manualmente sin caracteres invisibles), selecciona Discussions y categoría General o Announcements; copia los identificadores data-repo-id y data-category-id del código generado y pégalos en comments-config.js como repoId y categoryId. Si elegiste una categoría distinta de General, cambia también category. Sube comments-config.js editado a GitHub. Los visitantes deben iniciar sesión en GitHub para comentar. Sin esta activación, se mostrará un enlace de configuración, no un formulario operativo.
+5. Conserva la configuración actual de GitHub Pages: main / root.
