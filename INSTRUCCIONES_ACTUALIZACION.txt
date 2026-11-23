@@ -1,5 +1,5 @@
-REALLY CANON? — actualización SOBRE EL BLOG
+REALLY CANON? — CORRECCIÓN DE DISTRIBUCIÓN
 
-Sube TODOS los archivos de esta carpeta a la raíz de tu repositorio de GitHub, junto a index.html. No subas la carpeta como una subcarpeta. Confirma con Commit changes y espera a que GitHub Pages termine.
+El recuadro verde aparece a la DERECHA del rosa, en la misma fila en escritorio. La página Sobre el blog tiene márgenes laterales amplios.
 
-Cambios: nueva tarjeta verde junto a Modo Nostalgia, nueva página sobre-el-blog.html, enlaces del menú Sobre el blog actualizados en todas las páginas. Se mantienen los artículos, imágenes y Giscus.
+Descomprime el ZIP y sube todos los archivos directamente a la raíz de tu repositorio GitHub (no la carpeta que los contiene). Confirma Commit changes. Comprueba que el despliegue termina con marca verde.

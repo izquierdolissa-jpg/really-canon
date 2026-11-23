@@ -46,3 +46,15 @@
 .about-tile h2{font-family:'Archivo Black',Impact,sans-serif;font-size:20px;line-height:1.2}.about-tile p{line-height:1.6}
 .about-ending{background:var(--pink);border:2px solid var(--ink);border-radius:16px;padding:30px;font-weight:900;font-size:clamp(20px,2.8vw,32px);line-height:1.35}
 @media(max-width:900px){.feature-row{grid-template-columns:1fr}.feature-row .feature{min-height:270px}.about-sections{grid-template-columns:1fr}}
+
+/* Corrección de maquetación: bloques juntos, a la derecha, sin saltos */
+.site > .feature-row{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(270px,1fr);gap:28px;margin-top:30px;align-items:stretch}
+.site > .feature-row .feature{margin:0;max-width:none;min-height:320px;padding:clamp(24px,2.8vw,40px);display:flex;flex-direction:column;align-items:flex-start}
+.site > .feature-row .feature-about{background:var(--lime)}
+.site > .feature-row .feature h2{font-size:clamp(22px,2.3vw,36px);line-height:1.18}
+.site > .feature-row .feature a{margin-top:auto}
+/* Márgenes amplios en la página de presentación */
+.about-page{width:min(1120px,calc(100% - 100px));max-width:1120px;margin:0 auto;padding:50px 0 90px}
+.about-page .article-back{display:inline-block;margin-bottom:24px}
+.about-page .about-intro{max-width:900px;margin:44px auto}
+@media(max-width:800px){.site > .feature-row{grid-template-columns:1fr;gap:18px}.site > .feature-row .feature{min-height:270px}.about-page{width:calc(100% - 36px);padding:28px 0 65px}}
