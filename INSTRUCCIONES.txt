@@ -1,0 +1,6 @@
+REALLY CANON? - ACTUALIZACION
+
+1. Sube TODOS los archivos de esta carpeta a la raiz del repositorio de GitHub (junto a index.html). No subas la carpeta contenedora.
+2. La portada conserva su diseño, con las 3 imagenes nuevas. El menu abre paginas de seccion y cada tarjeta abre el articulo completo.
+3. COMENTARIOS PUBLICOS: GitHub Pages no guarda comentarios por si solo. Para activarlos gratis, abre Settings > General > Features y activa Discussions en tu repositorio. Luego entra en https://giscus.app/es , escribe iz​quierdolissa-jpg/really-canon (sin espacios ni caracteres invisibles), elige categoria General, y copia los valores data-repo-id y data-category-id generados. Pegalos entre las comillas de repoId y categoryId en comments-config.js. Guarda y sube el archivo. Los lectores necesitaran iniciar sesion en GitHub para comentar.
+4. Si quieres comentarios sin cuenta GitHub, necesitaremos elegir otro servicio de comentarios con su propia configuracion.
