@@ -1,0 +1,9 @@
+REALLY CANON? - COMENTARIOS REPARADOS
+
+Sube TODOS los archivos de esta carpeta a la raiz del repositorio GitHub, incluyendo article.html. Comprueba en GitHub que article.html contiene la frase "Participa en la conversacion".
+
+GitHub Pages: Settings > Pages > main / root. GitHub Discussions debe estar activado y Giscus instalado en el repositorio.
+
+Comprueba en una URL como https://izquierdolissa-jpg.github.io/really-canon/article.html?post=timmy y recarga con Cmd+Shift+R.
+
+Cada articulo usa un identificador de discusion propio. Los lectores necesitan GitHub para comentar.
